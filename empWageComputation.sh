@@ -17,8 +17,7 @@ fi
 
 #Uc2
 
-isPresent=1
-randomCheck=$((RANDOM%2))
+
 if [ $isPresent -eq $randomCheck ]
 then
    empRatePerHr=20
