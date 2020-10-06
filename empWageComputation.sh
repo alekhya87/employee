@@ -17,8 +17,6 @@ fi
 
 #Uc2
 
-isPresent=1
-randomCheck=$((RANDOM%2))
 if [ $isPresent -eq $randomCheck ]
 then
    empRatePerHr=20
@@ -48,11 +46,6 @@ salary=$(($empHrs*$empRatePerHr))
 
 #Uc4
 
-isPartTime=1
-isFullTime=2
-empRatePerHr=20
-empCheck=$((RANDOM%3))
-
 case $empCheck in 
 $isFullTime)
 		empHrs=8
@@ -69,10 +62,7 @@ salary=$(($empHrs*$empRatePerHr))
 
 #Uc5
 
-isPartTime=1
-isFullTime=2
 totaleSalary=0
-empRatePerHr=20
 numWorkingDays=20
 for (( day=1; day<=$numWorkingDays; day++))
 do
