@@ -1,5 +1,6 @@
 #!/bin/bash/ -x
 echo " Welcome to Employee Wage Computation Program on Master Branch "
+#Uc1
 isPresent=1
 randomCheck=$((RANDOM%2))
 if [ $isPresent -eq $randomCheck ]
@@ -8,8 +9,9 @@ then
 else
 	echo "Employee is Absent"
 fi
-isPresent=1
-randomCheck=$((RANDOM%2))
+
+#Uc2 
+
 if [ $isPresent -eq $randomCheck ]
 then
    empRatePerHr=20
